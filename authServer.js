@@ -16,7 +16,7 @@ app.listen(port, () =>{
 
 // Creació usuari amb ARRAY ( Cal fer-ho amb una BD!)
 
-const bcrypt = require("bcrypt")
+const bcrypt = require('bcrypt')
 const users = []
 
 app.post("/createUser", async(req,res) => {
