@@ -20,7 +20,6 @@ const bcrypt = require('bcrypt')
 const users = []
 
 app.post("/createUser", async(req,res) => {
-    console.log(req);
     const user = req.body.name
     const salt = await bcrypt.genSalt(10);
     
