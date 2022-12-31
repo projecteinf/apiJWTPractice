@@ -1,5 +1,10 @@
 # apiJWTPractice
-API amb authentication i JWT
+
+## API amb authentication i JWT
+
+### Authenticate REST APIs in Node JS using JWT (Json Web Tokens)
+
+Font: https://medium.com/@prashantramnyc/authenticate-rest-apis-in-node-js-using-jwt-json-web-tokens-f0e97669aad3
 
 Firefox addon per a comprovar API: Rest Client apisHub (https://addons.mozilla.org/en-US/firefox/addon/rest-client-apishub/)
 
