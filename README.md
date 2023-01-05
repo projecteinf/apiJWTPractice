@@ -16,5 +16,5 @@ Router help to create a list of all your apps routes and associate them to a con
 
 Firefox addon per a comprovar API: Rest Client apisHub (https://addons.mozilla.org/en-US/firefox/addon/rest-client-apishub/)
 
-![apiRestHeaders](https://user-images.githubusercontent.com/96139692/210012663-389e9dea-6215-4723-81a3-0c0bf3199cef.png)
-![apiRestBody](https://user-images.githubusercontent.com/96139692/210012672-8e23feb8-ed2b-4c76-bebf-888ad2657c3a.png)
+![image](https://user-images.githubusercontent.com/96139692/210769838-7ea7be88-b0b9-4f94-b7db-8757e7310ce2.png)
+![image](https://user-images.githubusercontent.com/96139692/210769974-a42b48be-c582-4d14-a0a7-9dd2c0c20440.png)
