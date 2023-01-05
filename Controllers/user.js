@@ -14,6 +14,15 @@ const createUser = (async (req,res) => {
     console.log(users)
 })
 
+const login = (async (req,res) => {
+    const user = req.body.name
+    const salt = await bcrypt.genSalt(10);
+    
+    const hashedPassword = await bcrypt.hash(req.body.password,salt)
+
+    
+})
+
 
 const getUsers = (async (req,res) => {
     res.status(201).send({"state":"OK"});
@@ -24,4 +33,5 @@ const getUsers = (async (req,res) => {
 module.exports = {
     createUser,
     getUsers,
+    login,
 }
