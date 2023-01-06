@@ -4,10 +4,10 @@ require("dotenv").config();
 const express = require('express');
 const app = express();
 
-const user_routes = require('./Routes/user.js');
+const userRoutes = require('./Routes/user.js');
 
 app.use(express.json());
-app.use('/api/user', user_routes);
+app.use('/api/user', userRoutes);
 
 const port = process.env.TOKEN_SERVER_PORT;
 
