@@ -18,3 +18,6 @@ Firefox addon per a comprovar API: Rest Client apisHub (https://addons.mozilla.o
 
 ![image](https://user-images.githubusercontent.com/96139692/210769838-7ea7be88-b0b9-4f94-b7db-8757e7310ce2.png)
 ![image](https://user-images.githubusercontent.com/96139692/210769974-a42b48be-c582-4d14-a0a7-9dd2c0c20440.png)
+
+
+Teoria: https://gist.github.com/alexserver/2fcc26f7e1ebcfc9f6d8
