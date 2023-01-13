@@ -3,24 +3,16 @@ const { JsonWebTokenError } = require('jsonwebtoken')
 const router = express.Router()
 
 
-const  { 
-    createUser,
-    getUsers,
-    login,
-    refreshToken,
-    logout,
-    authenticated,
-    validateToken
-} = require('../Controllers/user.js')
+const userController = require('../Controllers/user.js')
 
-router.get('/', getUsers)
+router.get('/', userController.getUsers)
 
-router.post('/createUser', createUser) 
-router.post('/login', login) 
-router.post('/refreshToken', refreshToken)
-router.delete('/logout',logout)
+router.post('/createUser', userController.createUser) 
+router.post('/login', userController.login) 
+router.post('/refreshToken', userController.refreshToken)
+router.delete('/logout',userController.logout)
 
-router.get('/auth',validateToken,authenticated)
+router.get('/auth',userController.validateToken,userController.authenticated)
 
 
 
